@@ -4,6 +4,7 @@ import Logo from '../images/icone/logo.svg';
 import Glass from '../images/icone/glass.svg';
 import Bilan from '../images/illlustrations/bilancandidature.svg';
 import ChevronLeft from '../images/icone/chevronleft.svg';
+import Debutant70 from '../images/illlustrations/debutant70.svg'
 
 const Home = () => {
 	return (
@@ -60,15 +61,30 @@ const Home = () => {
 
 			{/* BLOC D'IDE ET DE CONTACT */}
 
-			<div className='couleurs-fond-2 rounded pt-6 pb-3 px-6'>
+			<div className='couleurs-fond-2 rounded pt-6 pb-3 px-6 my-4'>
 				<h2 className='text-white text-lg font-face-gm '>Besoin d’aide ?</h2>
 				<p className='text-white text-xs font-face-gr'>Comment préparer et améliorer mes entretiens ou autre...  </p>
 
 				<div className='couleurs-fond-3 rounded w-8/12'>
 					<p className='m-2 p-2 text-white text-xs font-face-gr'>Contacter mon conseiller</p>
 				</div>
+			</div>
+
+			{/* MA PROGRESSION */}
+
+			<div className='bg-white rounded-lg border-2 border-sky-100 m-2'>
+				<div className='flex'>
+					<h2 className='font-face-gm text-lg m-2'>Ma progression</h2>
+				</div>
+
+				<div className='flex couleurs-fond-1 h-11 inline-block align-middle my-1.5'>
+					<p className='font-face-gm text-sm couleurs-primaire my-auto'>Débutant</p>
+					<p className='font-face-gm text-sm couleurs-primaire my-auto ml-auto mr-4'>70/100</p>
+					<img src={Debutant70} className="m-auto my-3 p-1" alt="Representation bilan candidature" />
+				</div>
 
 			</div>
+
 
 		</div >
 	);
