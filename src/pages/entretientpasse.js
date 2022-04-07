@@ -1,11 +1,5 @@
 import React from 'react';
 import '../index.css';
-import Bilan from '../images/illlustrations/bilancandidature.svg';
-import Debutant70 from '../images/illlustrations/debutant70.svg';
-import Reactivite from '../images/illlustrations/reactivite.svg';
-import Reactiviteun from '../images/icone/reactiviteun.svg';
-import Reactivitedeux from '../images/icone/reactivitedeux.svg';
-import Download from '../images/icone/download.svg';
 import Return from '../images/icone/return.svg';
 import Offre from '../images/illlustrations/offre.svg';
 
