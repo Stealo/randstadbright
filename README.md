@@ -30,7 +30,7 @@
 * [React.js](https://reactjs.org/)
 * [Tailwindcss](https://tailwindcss.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Retour en haut</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Mise en place
@@ -49,43 +49,53 @@ Installation du software
 
 _installation et configuration de votre application_
 
-1. Clone the repo
+1. Clone du repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Stealo/randstadbright.git
    ```
-2. Install NPM packages
+2. Installer les packages NPM
    ```sh
    npm install
    ```
-<p align="right">(<a href="#top">back to top</a>)</p>
+3. Démarrer le projet
+```sh
+npm start
+```
+<p align="right">(<a href="#top">Retour en haut</a>)</p>
 
 
 
 <!-- UTILISATION -->
 ## Utilisation
 
-Lorem ipsum dolor sit amet.
+Application en prototype, certain bouton ne fonctionne pas.
 
 _Pour d'avantage d'exemple, se référer à la documentation [Documentation](https://www.randstad.fr/)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Retour en haut</a>)</p>
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Fonctionnalités principale
+- [ ] Conexion
+- [x] Dashboard
+- [ ] Agenda
+- [ ] Emploi
+- [ ] Notification
+- [ ] Profil
+- [ ] Quizz
 - [ ] Support multi language 
     - [x] Français
     - [ ] Anglais
     - [ ] Espagnol
  
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Retour en haut</a>)</p>
 
 <!-- LICENSE -->
 ## License
 
 distribué sous une licence MIT License. Voir `LICENSE.txt` pour plus d'informations.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Retour en haut</a>)</p>
 

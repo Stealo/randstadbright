@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Routes, Route }
 	from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
-import Blogs from './pages/blogs';
-import SignUp from './pages/signup';
 import Contact from './pages/contact';
-import Profil from './pages/profil';
+import EntretientPasse from './pages/entretientpasse';
+import Emplois from './pages/emplois';
+
 
 function App() {
 	return (
@@ -18,9 +18,8 @@ function App() {
 				<Route exact path='/' exact element={<Home />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route path='/blogs' element={<Blogs />} />
-				<Route path='/sign-up' element={<SignUp />} />
-				<Route path='/profil' element={<Profil />} />
+				<Route path='/entretientpasse' element={<EntretientPasse />} />
+				<Route path='/Emplois' element={<Emplois />} />
 			</Routes>
 		</Router>
 	);
