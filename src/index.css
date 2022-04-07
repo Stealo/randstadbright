@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/*******************COULEURS*********************/
+
+.couleurs-primaire {
+    color: #0F1941;
+}
+
+.couleurs-fond-1 {
+    background-color: #F3F8FF;
+}
+
+.couleurs-fond-2 {
+    background-color: #FFB511;
+}
+
+.couleurs-fond-3 {
+    background-color: #2175D9;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+/*******************FONT*********************/
+
 @font-face {
     font-family: "GraphikRegular";
     src: local("GraphikRegular"),

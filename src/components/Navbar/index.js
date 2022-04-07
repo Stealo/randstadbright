@@ -13,14 +13,14 @@ const Navbar = () => {
       <Nav>
         <NavMenu className="flow-root">
           <div class="-m-2 flex flex-wrap">
-            <div class="m-2 ...">
+            <div class="m-2">
               <NavLink to="/about" activeStyle>
                 <div className="w-12/12 mx-2">
                   <img src={message} className="m-auto mb-2" alt="Icone de dashboard" />
                   <p className="text-xs font-face-gr">Dashboard</p>
                 </div>
               </NavLink></div>
-            <div class="m-2 ...">
+            <div class="m-2">
               <NavLink to="/contact" activeStyle>
                 <div className="w-12/12 mx-2">
                   <img src={calendar} className="m-auto mb-2" alt="Icone de message" />
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
               </NavLink>
             </div>
-            <div class="m-2 ...">
+            <div class="m-2">
               <NavLink to="/blogs" activeStyle>
                 <div className="w-12/12 mx-2">
                   <img src={job} className="m-auto mb-2" alt="Icone de message" />
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </div>
               </NavLink>
             </div>
-            <div class="m-2 ...">
+            <div class="m-2">
               <NavLink to="/sign-up" activeStyle>
                 <div className="w-12/12 mx-2">
                   <img src={notification} className="m-auto mb-2" alt="Icone de message" />
@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
               </NavLink>
             </div>
-            <div class="m-2 ...">
+            <div class="m-2">
               <NavLink to="/sign-up" activeStyle>
                 <div className="w-12/12 mx-2">
                   <img src={profil} className="m-auto mb-2" alt="Icone de message" />
