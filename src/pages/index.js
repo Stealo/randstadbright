@@ -9,6 +9,7 @@ import Reactivite from '../images/illlustrations/reactivite.svg';
 import Reactiviteun from '../images/icone/reactiviteun.svg';
 import Reactivitedeux from '../images/icone/reactivitedeux.svg';
 import Download from '../images/icone/download.svg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 	return (
@@ -30,18 +31,22 @@ const Home = () => {
 			<h1 className='font-face-gsm text-2xl m-4 couleurs-primaire'>Mon Dashboard Bright</h1>
 
 			<div className='bg-white rounded-lg border-2 border-sky-100 m-2'>
-				<div className='flex'>
-					<h2 className='font-face-gm text-lg m-2'>Mon bilan de candidatures</h2>
-					<img src={ChevronLeft} className="ml-auto mr-2 my-3 p-1 " alt="Fleche droite" />
-				</div>
 
-				<img src={Bilan} className="m-auto my-3 p-1" alt="Representation bilan candidature" />
+				<Link to="./entretientpasse">
+					<div className='flex'>
+						<h2 className='font-face-gm text-lg m-2'>Mon bilan de candidatures</h2>
+						<img src={ChevronLeft} className="ml-auto mr-2 my-3 p-1 " alt="Fleche droite" />
+					</div>
 
-				<div className='flex couleurs-fond-1 h-11 inline-block align-middle my-1.5'>
-					<div className='w-6 h-6 couleurs-fond-4 rounded my-auto mx-4'></div>
-					<p className='font-face-gm text-sm couleurs-primaire my-auto'>Missions effectuées</p>
-					<p className='font-face-gm text-sm couleurs-primaire my-auto ml-auto mr-4'>6</p>
-				</div>
+
+					<img src={Bilan} className="m-auto my-3 p-1" alt="Representation bilan candidature" />
+
+					<div className='flex couleurs-fond-1 h-11 inline-block align-middle my-1.5'>
+						<div className='w-6 h-6 couleurs-fond-4 rounded my-auto mx-4'></div>
+						<p className='font-face-gm text-sm couleurs-primaire my-auto'>Missions effectuées</p>
+						<p className='font-face-gm text-sm couleurs-primaire my-auto ml-auto mr-4'>6</p>
+					</div>
+				</Link>
 
 				<div className='flex couleurs-fond-1 h-11 inline-block align-middle my-1.5'>
 					<div className='w-6 h-6 couleurs-fond-5 rounded my-auto mx-4'></div>

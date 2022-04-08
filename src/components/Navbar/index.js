@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavMenu className="flow-root">
           <div class="-m-2 flex flex-wrap bg-white rounded-t-xl border-2 border-sky-600 h-20">
             <div class="m-2">
-              <NavLink to="/about" activeStyle>
+              <NavLink to="/" activeStyle>
                 <div className="w-12/12 mx-2">
                   <img src={message} className="m-auto mb-2" alt="Icone de dashboard" />
                   <p className="text-xs font-face-gsm couleurs-secondaire">Dashboard</p>
@@ -29,7 +29,7 @@ const Navbar = () => {
               </NavLink>
             </div>
             <div class="m-2">
-              <NavLink to="/blogs" activeStyle>
+              <NavLink to="/emplois" activeStyle>
                 <div className="w-12/12 mx-2">
                   <img src={job} className="m-auto mb-2" alt="Icone de message" />
                   <p className="text-xs font-face-gsm couleurs-secondaire">Emplois</p>

@@ -8,6 +8,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import EntretientPasse from './pages/entretientpasse';
 import Emplois from './pages/emplois';
+import EmploisEnregistre from './pages/emploisenregistre';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/entretientpasse' element={<EntretientPasse />} />
 				<Route path='/Emplois' element={<Emplois />} />
+				<Route path='/EmploisEnregistre' element={<EmploisEnregistre />} />
 			</Routes>
 		</Router>
 	);

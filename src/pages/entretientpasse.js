@@ -2,6 +2,7 @@ import React from 'react';
 import '../index.css';
 import Return from '../images/icone/return.svg';
 import Offre from '../images/illlustrations/offre.svg';
+import { Link } from 'react-router-dom';
 
 const EntretientPasse = () => {
     return (
@@ -10,7 +11,9 @@ const EntretientPasse = () => {
             {/* ENTRETIENS PASSEES */}
 
             <div className='inline-block align-middle mx-4'>
-                <img src={Return} className="mr-auto mr-2 my-1 p-1 " alt="Fleche gauche" />
+                <Link to="/">
+                    <img src={Return} className="mr-auto mr-2 my-1 p-1 " alt="Fleche gauche" />
+                </Link>
                 <h2 className='font-face-gsm text-lg m-1'>Entretiens passés</h2>
             </div>
 

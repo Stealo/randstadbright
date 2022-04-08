@@ -25,7 +25,6 @@ export const NavLink = styled(Link)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin: auto;
 white-space: nowrap; */
 
 `;
